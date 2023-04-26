@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+body {
+    font-family: Arial, sans-serif;
+}
+     
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 40px;
+    color:darkcyan;
+}
+     
+h2 {
+    text-align: center;
+    margin-top: 50px;    
+}
+
+p{
+    text-align: center;
+}
+
+#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+     
+#guess-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+#try-again{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #083d52;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+  
+#guess-button:hover{
+    background-color: #0d6c6c;
+}
+#try-again:hover{
+    background-color: #1b88b4;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+     
+.letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;    
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+     
+.row{
+    margin-bottom: 15px;
+    place-items: center;
+    margin: auto;
+}
+     
+.input-area{
+    margin: 30px;
+}
+
+#grid{
+    display: grid;
+    place-items: center;
+}
+
+#confetti{
+	background: #ffffff;
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: -1;
+    display: block;
+}
+
+#try-again{
+    display: none;
+}
+
+#decoracion{
+    margin:10px auto;
+	display:block;
+}
+
