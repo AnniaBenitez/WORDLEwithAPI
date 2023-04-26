@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+ <html lang="es">
+    <head>
+        <title>Wordle PPY</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/icono.ico">
+        <script src="./js/script.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script
+            type="text/javascript"
+            src="https://code.jquery.com/jquery-1.11.0.js"
+            defer>
+        </script>
+        <script src = './js/scriptConfetti.js' defer></script>
+    </head>
+    <body>
+        <h1>Wordle PPY</h1>
+        <p id = 'intentos'>You should try with 5 letter words, you have <b>6</b> attempts!</p>
+        <img id = 'decoracion' src="./img/icono.ico">
+        <input type="text" id="guess-input">
+        <button id="guess-button">Try!</button>
+        <div id="grid"></div>
+        <p id="guesses"></p>
+        <button id="try-again">Play again!</button>
+        <div id = 'confetti'></div>
+    </body>
+ </html>
